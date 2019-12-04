@@ -2,3 +2,7 @@
 Hourly Weather Demo
 
 Requires AccuWeather API Key. You can get your API Key at https://developer.accuweather.com
+
+## How to display the fields in the ViewBox
+
+The ViewBox does not populate the fields initially because the API key is stored as a session variable, set in the onDialogInitialize event. You can get the ViewBox to populate the fields by setting the default value for the apikey variable in the Xbasic functions to your API key.
